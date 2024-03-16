@@ -11,7 +11,7 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
-  <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
+  <nav class="navbar p-3 navbar-expand-md bg-white fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="images/logo.svg" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -59,18 +59,22 @@
     </div>
   </nav>
 <div class="container-lg my-5 p-sm-5">
-    <div class="d-flex flex-row-reverse row gx-5">
-      <div class="col-md-6">
-        <img class="desktop-img img-fluid" src="images/image-hero-desktop.png" alt="desktop"></div>
-      <div class="col-md-6 text-center text-sm-start">
+    <div class="d-flex flex-row-reverse mx-xl-5 row gx-5">
+      <div class="col-md-6 d-none d-md-block">
+        <img class="desktop-img img-fluid" src="images/image-hero-desktop.png" alt="desktop">
+      </div>
+      <div class="col-md-6 d-block d-md-none">
+        <img class="desktop-img img-fluid" src="images/image-hero-mobile.png" alt="desktop">
+      </div>
+      <div class="col-md-6 text-center text-sm-start d-flex flex-column justify-content-center">
         <h1 class="display-3 fw-bold mt-5">
           Make remote work
         </h1>
-        <p class="text-muted fs-5 my-5">
+        <p class="text-muted fs-5 my-4">
             Get your team in sync, no matter your location. Streamline processes,
             create team rituals, and watch productivity soar.
         </p>
-         <button class="btn btn-dark">Learn more</button>
+         <button class="btn btn-dark" style="width: 35%;">Learn more</button>
          <div class="complanies mt-5">
           <img src="images/client-databiz.svg" alt="databiz">
           <img src="images/client-audiophile.svg" alt="audio">
